@@ -1,0 +1,26 @@
+{
+  "name": "sensores_iot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SoyLuisM/sensores_IOT.git"
+  },
+  "keywords": [
+    "IOT",
+    "dht11"
+  ],
+  "author": "Luis Martinez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SoyLuisM/sensores_IOT/issues"
+  },
+  "homepage": "https://github.com/SoyLuisM/sensores_IOT#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
