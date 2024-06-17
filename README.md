@@ -18,13 +18,19 @@ sudo apt install libcairo2-dev pkg-config python3.12-dev
 ```
 
 instalar pip 
-`sudo apt-get install python3-pip`
+`
+sudo apt-get install python3-pip
+`
 
 crear entorno virtual
-`python3.12 -m venv venv`
+`
+python3.12 -m venv venv
+`
 
 activar entorno virtual
-`source ./venv/bin/activate`
+`
+source ./venv/bin/activate
+`
 
 instalar adafuit
 ```
@@ -33,4 +39,6 @@ pip install Adafruit_DHT
 ```
 
 ## instalacion rapida 
-`pip  install requirements.txt`
+`
+pip  install requirements.txt
+`
