@@ -1,4 +1,4 @@
-from get_tem_hum import start_sensor
+from src.sensores.get_tem_hum import start_sensor
 
 try:
     start_sensor(23, 3)
