@@ -2,17 +2,18 @@ import Adafruit_DHT
 import time
 
 
-def get_temp_RH(pin=23):
+def get_temp_RH(pin):
+
     sensor = Adafruit_DHT.DHT11    
     humedad, temperatura = Adafruit_DHT.read(sensor, pin)
-  
+
     return  {
         temperatura,
         humedad
     }
 
 
-def start_sensor(pin = 23, sensor_delay = 2):
+def start_sensor(pin = 23, sensor_delay = 3):
     interations = True
     while interations:
         try:
@@ -22,7 +23,7 @@ def start_sensor(pin = 23, sensor_delay = 2):
             temperatura = None
             print("error al leer")
         finally:
-            print(f'temperatura: {temperatura}°C humumedad: {humedad} %')
+            print(f'temperatura: {temperatura}°C humedad: {humedad} %')
 
         time.sleep(sensor_delay)
 
